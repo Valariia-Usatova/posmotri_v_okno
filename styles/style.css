@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -42,7 +45,7 @@ ol {
   align-items: flex-end;
   margin: auto 0;
   gap: 30px;
-  padding: 133px 30px 0;
+  margin: 133px 30px 0;
 }
 
 .result {
