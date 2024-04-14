@@ -104,7 +104,7 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label .search-form__label-text:hover {
+.search-form__label:hover  .search-form__label-text {
   text-decoration: underline 1px currentColor;
   text-underline-offset: 5px;
 }
@@ -246,6 +246,7 @@ ol {
 
 .content__card-link:focus {
   outline: 1px solid currentColor;
+  background-color: #545050;
 }
 
 .content__card-link:hover {
