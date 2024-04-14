@@ -246,6 +246,9 @@ ol {
 
 .content__card-link:focus {
   outline: 1px solid currentColor;
+}
+
+.content__card-link_current{
   background-color: #545050;
 }
 
